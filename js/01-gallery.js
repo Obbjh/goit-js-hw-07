@@ -23,7 +23,7 @@ const galleryCurrent = galleryItems.map(({preview, description, original}) => `
 
   galleryList.insertAdjacentHTML('afterbegin', galleryCurrent);
 
-// Делегування Gallery та заміна img при кліку
+// Делегування Gallery 
 
 galleryList.addEventListener(`click`, onclick);
 
